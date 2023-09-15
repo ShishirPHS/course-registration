@@ -8,6 +8,10 @@ function App() {
   const [selectedCourse, setSelectedCourse] = useState([]);
 
   const handleSelectedCourse = (course) => {
+    const isExist = selectedCourse.find((item) => item.id === course.id);
+    if (isExist) {
+      return alert("already selected");
+    }
     setSelectedCourse([...selectedCourse, course]);
   };
 
