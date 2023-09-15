@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { BiBookOpen } from "react-icons/bi";
 
-const Course = ({ course }) => {
+const Course = ({ course, handleSelectedCourse }) => {
   const { cover_photo, course_title, course_details, price, credit } = course;
 
   return (
@@ -30,7 +30,10 @@ const Course = ({ course }) => {
           </span>
         </p>
       </div>
-      <button className="bg-[#2F80ED] text-white w-full py-[9px] rounded-lg text-lg font-semibold mt-6">
+      <button
+        onClick={() => handleSelectedCourse(course)}
+        className="bg-[#2F80ED] text-white w-full py-[9px] rounded-lg text-lg font-semibold mt-6"
+      >
         Select
       </button>
     </div>
@@ -39,6 +42,7 @@ const Course = ({ course }) => {
 
 Course.propTypes = {
   course: PropTypes.object.isRequired,
+  handleSelectedCourse: PropTypes.func.isRequired,
 };
 
 export default Course;
