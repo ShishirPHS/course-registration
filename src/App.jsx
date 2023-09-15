@@ -5,14 +5,23 @@ import CourseCart from "./Components/CourseCart/CourseCart";
 import { useState } from "react";
 
 function App() {
-  const [selectedCourse, setSelectedCourse] = useState([]);
+  const [selectedCourses, setSelectedCourses] = useState([]);
+  const [totalCredit, setTotalCredit] = useState(0);
 
   const handleSelectedCourse = (course) => {
-    const isExist = selectedCourse.find((item) => item.id === course.id);
+    const isExist = selectedCourses.find((item) => item.id === course.id);
+    let count = course.credit;
+
     if (isExist) {
       return alert("already selected");
+    } else {
+      selectedCourses.forEach((item) => {
+        count += item.credit;
+      });
+
+      setTotalCredit(count);
+      setSelectedCourses([...selectedCourses, course]);
     }
-    setSelectedCourse([...selectedCourse, course]);
   };
 
   return (
@@ -20,7 +29,10 @@ function App() {
       <Header></Header>
       <div className="container mx-auto grid grid-cols-4 gap-6">
         <Courses handleSelectedCourse={handleSelectedCourse}></Courses>
-        <CourseCart selectedCourse={selectedCourse}></CourseCart>
+        <CourseCart
+          selectedCourses={selectedCourses}
+          totalCredit={totalCredit}
+        ></CourseCart>
       </div>
     </>
   );
