@@ -3,6 +3,8 @@ import Courses from "./Components/Courses/Courses";
 import Header from "./Components/Header/Header";
 import CourseCart from "./Components/CourseCart/CourseCart";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
@@ -16,7 +18,12 @@ function App() {
     let count = course.credit;
 
     if (isExist) {
-      return alert("already selected");
+      // return alert("already selected");
+      return toast.error("already selected", {
+        position: "top-center",
+        autoClose: 2000,
+        theme: "light",
+      });
     } else {
       selectedCourses.forEach((item) => {
         count += item.credit;
@@ -25,8 +32,17 @@ function App() {
       const remainingCount = creditLimit - count;
 
       if (count > creditLimit) {
-        return alert(
-          "You do not have enough credit remaining to select this course."
+        // return alert(
+        //   "You do not have enough credit remaining to select this course."
+        // );
+
+        return toast.error(
+          "You do not have enough credit remaining to select this course.",
+          {
+            position: "top-center",
+            autoClose: 2000,
+            theme: "light",
+          }
         );
       } else {
         setTotalCredit(count);
@@ -47,6 +63,7 @@ function App() {
           remaining={remaining}
         ></CourseCart>
       </div>
+      <ToastContainer />
     </>
   );
 }
