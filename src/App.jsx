@@ -7,6 +7,9 @@ import { useState } from "react";
 function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
+  const [remaining, setRemaining] = useState(20);
+
+  const creditLimit = 20;
 
   const handleSelectedCourse = (course) => {
     const isExist = selectedCourses.find((item) => item.id === course.id);
@@ -19,8 +22,17 @@ function App() {
         count += item.credit;
       });
 
-      setTotalCredit(count);
-      setSelectedCourses([...selectedCourses, course]);
+      const remainingCount = creditLimit - count;
+
+      if (count > creditLimit) {
+        return alert(
+          "You do not have enough credit remaining to select this course."
+        );
+      } else {
+        setTotalCredit(count);
+        setRemaining(remainingCount);
+        setSelectedCourses([...selectedCourses, course]);
+      }
     }
   };
 
@@ -32,6 +44,7 @@ function App() {
         <CourseCart
           selectedCourses={selectedCourses}
           totalCredit={totalCredit}
+          remaining={remaining}
         ></CourseCart>
       </div>
     </>
