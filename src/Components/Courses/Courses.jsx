@@ -10,7 +10,7 @@ const Courses = () => {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div className="grid grid-cols-3 gap-6 col-span-3 border-2 mb-20">
+    <div className="grid grid-cols-3 gap-6 col-span-3 mb-20">
       {courses.map((course) => (
         <Course key={course.id} course={course}></Course>
       ))}
