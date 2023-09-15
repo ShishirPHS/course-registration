@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "cover_photo": "https://i.ibb.co/WvHPyYX/c-programming.png",
+    "course_title": "Introduction to Web Development",
+    "course_details": "Learn the basics of HTML, CSS, and JavaScript to build your first website.",
+    "price": 99.99,
+    "credit": 3
+  },
+  {
+    "id": 2,
+    "cover_photo": "https://i.ibb.co/zZ66qPj/algorithms.png",
+    "course_title": "Data Science Fundamentals",
+    "course_details": "Dive into data analysis, visualization, and machine learning with Python.",
+    "price": 149.99,
+    "credit": 4
+  },
+  {
+    "id": 3,
+    "cover_photo": "https://i.ibb.co/PQTzXV3/c.png",
+    "course_title": "Graphic Design Mastery",
+    "course_details": "Master Adobe Creative Suite tools and design principles.",
+    "price": 129.99,
+    "credit": 3
+  },
+  {
+    "id": 4,
+    "cover_photo": "https://i.ibb.co/B6b7Yrh/data-structure.png",
+    "course_title": "Business Finance Essentials",
+    "course_details": "Understand financial statements, budgeting, and investment basics.",
+    "price": 79.99,
+    "credit": 2
+  },
+  {
+    "id": 5,
+    "cover_photo": "https://i.ibb.co/TMR10mg/python.png",
+    "course_title": "Introduction to Spanish",
+    "course_details": "Learn the fundamentals of the Spanish language.",
+    "price": 49.99,
+    "credit": 1
+  },
+  {
+    "id": 6,
+    "cover_photo": "https://i.ibb.co/VCPVnLk/software-engineering.png",
+    "course_title": "Advanced Excel Techniques",
+    "course_details": "Excel beyond the basics with advanced formulas and data analysis.",
+    "price": 69.99,
+    "credit": 2
+  },
+  {
+    "id": 7,
+    "cover_photo": "https://i.ibb.co/wM7TPc4/aws.png",
+    "course_title": "Digital Marketing Strategy",
+    "course_details": "Create effective digital marketing campaigns and strategies.",
+    "price": 119.99,
+    "credit": 3
+  },
+  {
+    "id": 8,
+    "cover_photo": "https://i.ibb.co/PYMnMtR/database.png",
+    "course_title": "Introduction to Photography",
+    "course_details": "Master the basics of photography, from composition to editing.",
+    "price": 89.99,
+    "credit": 2
+  },
+  {
+    "id": 9,
+    "cover_photo": "https://i.ibb.co/SPCfDV9/problem-solving.png",
+    "course_title": "Introduction to Photography",
+    "course_details": "Master the basics of photography, from composition to editing.",
+    "price": 89.99,
+    "credit": 2
+  }
+]
