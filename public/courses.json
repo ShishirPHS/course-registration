@@ -2,73 +2,73 @@
   {
     "id": 1,
     "cover_photo": "https://i.ibb.co/WvHPyYX/c-programming.png",
-    "course_title": "Introduction to Web Development",
-    "course_details": "Learn the basics of HTML, CSS, and JavaScript to build your first website.",
-    "price": 99.99,
-    "credit": 3
+    "course_title": "Introduction to C Programming",
+    "course_details": "Explore the basics of C programming in this beginner-friendly online course, mastering key concepts and coding skills.",
+    "price": 15000,
+    "credit": 1
   },
   {
     "id": 2,
     "cover_photo": "https://i.ibb.co/zZ66qPj/algorithms.png",
-    "course_title": "Data Science Fundamentals",
-    "course_details": "Dive into data analysis, visualization, and machine learning with Python.",
-    "price": 149.99,
-    "credit": 4
+    "course_title": "Introduction to Algorithms",
+    "course_details": "Discover the world of algorithms in this online course, mastering fundamental concepts and problem-solving techniques for efficient algorithms.",
+    "price": 25000,
+    "credit": 2
   },
   {
     "id": 3,
     "cover_photo": "https://i.ibb.co/PQTzXV3/c.png",
-    "course_title": "Graphic Design Mastery",
-    "course_details": "Master Adobe Creative Suite tools and design principles.",
-    "price": 129.99,
-    "credit": 3
+    "course_title": "Introduction to C++ for DSA",
+    "course_details": "grasp the essentials of C++ programming tailored for Data Structures and Algorithms (DSA) in this online introductory course.",
+    "price": 10000,
+    "credit": 10
   },
   {
     "id": 4,
     "cover_photo": "https://i.ibb.co/B6b7Yrh/data-structure.png",
-    "course_title": "Business Finance Essentials",
-    "course_details": "Understand financial statements, budgeting, and investment basics.",
-    "price": 79.99,
-    "credit": 2
+    "course_title": "Basic Data Structures",
+    "course_details": "Unlock the essentials of Basic Data Structures in this concise online course, equipping you with crucial skills for efficient information.",
+    "price": 35000,
+    "credit": 5
   },
   {
     "id": 5,
     "cover_photo": "https://i.ibb.co/TMR10mg/python.png",
-    "course_title": "Introduction to Spanish",
-    "course_details": "Learn the fundamentals of the Spanish language.",
-    "price": 49.99,
-    "credit": 1
+    "course_title": "Introduction to OOP Python",
+    "course_details": "Embark on an OOP Python journey in this course, spanning the basics, encapsulation, inheritance, and polymorphism",
+    "price": 19000,
+    "credit": 5
   },
   {
     "id": 6,
     "cover_photo": "https://i.ibb.co/VCPVnLk/software-engineering.png",
-    "course_title": "Advanced Excel Techniques",
-    "course_details": "Excel beyond the basics with advanced formulas and data analysis.",
-    "price": 69.99,
+    "course_title": "Software Engineering",
+    "course_details": "In this comprehensive course, covering software development methodologies, design principles, and project management.",
+    "price": 23000,
     "credit": 2
   },
   {
     "id": 7,
     "cover_photo": "https://i.ibb.co/wM7TPc4/aws.png",
-    "course_title": "Digital Marketing Strategy",
-    "course_details": "Create effective digital marketing campaigns and strategies.",
-    "price": 119.99,
-    "credit": 3
+    "course_title": "AWS, Cloud Computing",
+    "course_details": "Explore AWS and Cloud Computing in this course, gaining proficiency in cloud services, scalability, and infrastructure management.",
+    "price": 35000,
+    "credit": 5
   },
   {
     "id": 8,
     "cover_photo": "https://i.ibb.co/PYMnMtR/database.png",
-    "course_title": "Introduction to Photography",
-    "course_details": "Master the basics of photography, from composition to editing.",
-    "price": 89.99,
-    "credit": 2
+    "course_title": "Database (MySQL)",
+    "course_details": "Master MySQL Database in this course, covering data modeling, querying, and database management to build solid data-driven applications.",
+    "price": 19000,
+    "credit": 5
   },
   {
     "id": 9,
     "cover_photo": "https://i.ibb.co/SPCfDV9/problem-solving.png",
-    "course_title": "Introduction to Photography",
-    "course_details": "Master the basics of photography, from composition to editing.",
-    "price": 89.99,
+    "course_title": "Problem-Solving Part",
+    "course_details": "Enhance your problem-solving skills in this course, learning strategies and techniques to tackle complex challenges effectively.",
+    "price": 23000,
     "credit": 2
   }
 ]
