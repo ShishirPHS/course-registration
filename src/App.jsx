@@ -48,7 +48,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 2xl:gap-6">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 2xl:gap-6 px-5 lg:px-0">
         <Courses handleSelectedCourse={handleSelectedCourse}></Courses>
         <CourseCart
           selectedCourses={selectedCourses}
