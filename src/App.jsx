@@ -18,9 +18,7 @@ function App() {
     let count = course.credit;
 
     if (isExist) {
-      // return alert("already selected");
       return toast.error("already selected", {
-        position: "top-center",
         autoClose: 2000,
         theme: "light",
       });
@@ -32,14 +30,9 @@ function App() {
       const remainingCount = creditLimit - count;
 
       if (count > creditLimit) {
-        // return alert(
-        //   "You do not have enough credit remaining to select this course."
-        // );
-
         return toast.error(
           "You do not have enough credit remaining to select this course.",
           {
-            position: "top-center",
             autoClose: 2000,
             theme: "light",
           }
