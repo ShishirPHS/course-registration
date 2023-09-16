@@ -19,13 +19,9 @@ const CourseCart = ({ selectedCourses, totalCredit, remaining }) => {
           ))}
         </ol>
         <div className="max-w-[1000px] h-[1px] bg-[#1c1b1b33]"></div>
-        <p className="text-[#1c1b1bcc] font-medium my-4">
+        <p className="text-[#1c1b1bcc] font-medium mt-4">
           Total Credit Hour : {totalCredit}
         </p>
-        <div className="max-w-[1000px] h-[1px] bg-[#1c1b1b33]"></div>
-        <h3 className="text-[#1c1b1bcc] font-semibold mt-4">
-          Total Price : 0 USD
-        </h3>
       </div>
     </div>
   );
