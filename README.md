@@ -1,8 +1,13 @@
-# React + Vite
+# Online Courses
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Online Courses is a React-based platform that provides a wide range of educational opportunities. Explore different types of courses, manage your credits, and receive real-time notifications for a seamless learning experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Different Types of Courses**: Choose from a variety of courses, including C programming, C++, Python, Data Structures, problem-solving, and more to tailor your learning journey.
+
+- **Preventing Duplicate Course Selection**: Avoid duplicates by preventing users from selecting the same course multiple times.
+
+- **Credit Limit Control**: Manage your course selection within allocated credit limits, ensuring a balanced learning experience.
+
+- **Notifications Using React Toast**: Receive notifications via React Toast when attempting to select a course multiple times or when your credits are insufficient for course enrollment.
