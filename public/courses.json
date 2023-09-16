@@ -3,7 +3,7 @@
     "id": 1,
     "cover_photo": "https://i.ibb.co/WvHPyYX/c-programming.png",
     "course_title": "Introduction to C Programming",
-    "course_details": "Explore the basics of C programming in this beginner-friendly online course, mastering key concepts and coding skills.",
+    "course_details": "Explore the fundamentals of C programming in this beginner-friendly online course, mastering key concepts and coding skills.",
     "price": 15000,
     "credit": 1
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "cover_photo": "https://i.ibb.co/zZ66qPj/algorithms.png",
     "course_title": "Introduction to Algorithms",
-    "course_details": "Discover the world of algorithms in this online course, mastering fundamental concepts and problem-solving techniques for efficient algorithms.",
+    "course_details": "Discover the world of algorithms in this course, mastering fundamental concepts and problem-solving techniques for efficient algorithms.",
     "price": 25000,
     "credit": 2
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "cover_photo": "https://i.ibb.co/TMR10mg/python.png",
     "course_title": "Introduction to OOP Python",
-    "course_details": "Embark on an OOP Python journey in this course, spanning the basics, encapsulation, inheritance, and polymorphism",
+    "course_details": "Embark on an OOP Python journey in this course, spanning the basics, encapsulation, inheritance, and polymorphism.",
     "price": 19000,
     "credit": 5
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "cover_photo": "https://i.ibb.co/PYMnMtR/database.png",
     "course_title": "Database (MySQL)",
-    "course_details": "Master MySQL Database in this course, covering data modeling, querying, and database management to build solid data-driven applications.",
+    "course_details": "Master MySQL Database in this course, covering data modeling, querying, & database management to build solid applications.",
     "price": 19000,
     "credit": 5
   },

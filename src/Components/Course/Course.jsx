@@ -12,11 +12,13 @@ const Course = ({ course, handleSelectedCourse }) => {
         src={cover_photo}
         alt="Cover photo of this course"
       />
-      <h3 className="mt-4 mb-3 text-[#1C1B1B] text-lg font-semibold">
+      <h3 className="mt-4 mb-3 text-[#1C1B1B] text-lg lg:text-sm xl:text-[16px] 2xl:text-lg font-semibold">
         {course_title}
       </h3>
-      <p className="mb-4 text-sm text-[#1c1b1b99]">{course_details}</p>
-      <div className="flex items-center">
+      <p className="mb-4 text-sm lg:text-xs xl:text-sm text-[#1c1b1b99]">
+        {course_details}
+      </p>
+      <div className="flex lg:flex-col xl:flex-row items-center lg:items-start xl:items-center">
         <p className="flex items-center mr-4">
           <BsCurrencyDollar></BsCurrencyDollar>{" "}
           <span className="text-[#1c1b1b99] font-medium ml-3">
